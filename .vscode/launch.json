@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Debug NR Process",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        //"runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
+        "runtimeExecutable": "/usr/local/bin/electron",
+        "program": "${workspaceRoot}/main.js"
+    }]
+}
