@@ -6,7 +6,7 @@
         "request": "launch",
         "cwd": "${workspaceRoot}",
         //"runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
-        "runtimeExecutable": "/usr/local/bin/electron",
+        "runtimeExecutable": "C:/Program Files/nodejs/node_global/node_modules/electron/dist/electron.exe",
         "program": "${workspaceRoot}/main.js"
     }]
 }
