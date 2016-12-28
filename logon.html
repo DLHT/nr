@@ -11,22 +11,39 @@
 </head>
 
 <body>
-    <div id="header" class="header">
-        系统登录
-    </div>
-
-    <div id="nav" class="nav">
-        登录<br> 设置
-        <br>
-    </div>
-
     <div id="section" class="section">
-
+        <form id="form_logon">
+            <table>
+                <tbody>
+                    <tr>
+                        <td colspan="2" style="text-align: right">
+                            <a href="#" onclick="alert(ok);" tabindex="6">设置</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="id_input_user_email">登陆邮箱:</label></label>
+                        </td>
+                        <td><input id="id_input_user_email" type="email" name="user_email" placeholder="邮箱地址" tabindex="1" autofocus="autofocus" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="id_input_user_pwd">登陆密码:</label></label>
+                        </td>
+                        <td><input id="id_input_user_pwd" type="password" name="user_pwd" placeholder="你的密码" tabindex="2" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: right">
+                            <hr/>
+                            <label for="id_input_save_email">保存邮箱</label>
+                            <input id="id_input_save_email" type="checkbox" name="save_email" checked value="true" tabindex="3" />
+                            <input id="id_input_ok_logon" type="button" name="logon" value="登陆" accesskey="o" tabindex="4" />
+                            <input id="id_input_cancel_logon" type="button" name="cancel" value="取消" accesskey="c" tabindex="5" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
     </div>
 
-    <div id="footer" class="footer">
-        Copyright www.dlht.com.cn
-    </div>
 </body>
 
 </html>
